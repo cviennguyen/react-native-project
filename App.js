@@ -1,5 +1,6 @@
 import { SafeAreaView, StyleSheet, Text, View } from "react-native";
 import MainContainer from "./navigation/MainContainer";
+import GoogleInput from "./navigation/screens/GoogleInput";
 
 export default function App() {
   return <MainContainer style={styles.container} />;

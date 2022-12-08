@@ -1,0 +1,22 @@
+{
+"restaurants": [
+  {
+    "id": 1,
+    "name": "Learn backbone",
+    "address": "9 erie",
+    "phone": "123-456-7890",
+    "tag": "food",
+    "description": "Learn backbone"
+  },
+
+  {
+    "id": 2,
+    "name": "Learn backbone",
+    "address": "3 erie",
+    "phone": "123-456-7890",
+    "tag": "seafood",
+    "description": "Learn backbone"
+  }
+]
+
+}

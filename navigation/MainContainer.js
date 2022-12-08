@@ -2,10 +2,11 @@ import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Ionicons from "react-native-vector-icons/Ionicons";
+
 // Screens
 import HomeScreen from "./screens/HomeScreen";
 import SearchScreen from "./screens/SearchScreen";
-import AddScreen from "./screens/AddScreen";
+import AddNavigator from "./screens/AddNavigator";
 import AboutScreen from "./screens/AboutScreen";
 
 //Screen names
@@ -49,7 +50,7 @@ function MainContainer() {
       >
         <Tab.Screen name={homeName} component={HomeScreen} />
         <Tab.Screen name={searchName} component={SearchScreen} />
-        <Tab.Screen name={addName} component={AddScreen} />
+        <Tab.Screen name={addName} component={AddNavigator} />
         <Tab.Screen name={aboutName} component={AboutScreen} />
       </Tab.Navigator>
     </NavigationContainer>
